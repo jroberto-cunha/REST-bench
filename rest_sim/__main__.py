@@ -564,7 +564,7 @@ def build_parser():
     s.add_argument("--end", type=float, required=True,
                    help="End hour (e.g. 18 = 6pm)")
     s.add_argument("--discount", type=float, required=True,
-                   help="Discount fraction (0.20 = 20%)")
+                   help="Discount fraction (0.20 = 20%%)")
     s.add_argument("--categories", default=None,
                    help="Comma-separated categories; default = all")
     s.add_argument("--days", type=int, default=7)
